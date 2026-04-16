@@ -34,9 +34,3 @@ FastAPI endpoint that classifies a name via the [Genderize.io](https://genderize
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
-
-## Deploy to Railway
-
-1. Push to GitHub.
-2. Railway → New Project → Deploy from GitHub repo.
-3. Generate a domain under Settings → Networking.
